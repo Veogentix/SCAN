@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+.main {
+
+    background: #FFFFFF;
+    flex-grow: 1;
+
+}
+
+.header {
+    background: #FFFFFF;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu_item {
+    margin-left: 49px;
+    border: none;
+    outline: none;
+    background-color: #FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    letter-spacing: 0.01em;
+
+    color: #000000;
+}
+
+.header_content {
+    display: flex;
+    justify-content: space-between;
+    height: 93px;
+    font-family: 'Inter';
+    font-style: normal;
+}
+
+.scan {
+    width: 141px;
+    height: 111px;
+    left: 60px;
+    top: -24px;
+    margin-left: 60px;
+    background-image: url("../../svg/header/skan-head.svg");
+}
+
+.registate {
+    width: 146px;
+    height: 17px;
+    left: 1129px;
+    top: 37px;
+    margin-top: 3px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    letter-spacing: 0.01em;
+
+    color: #000000;
+
+    opacity: 0.4;
+}
+
+.loginOrRegistrate {
+    margin-right: 60px;
+
+    margin-top: 34px;
+    display: flex;
+}
+
+.line {
+    width: 2px;
+    height: 26px;
+    margin-right: 18px;
+    margin-left: 18px;
+    background-image: url("../../svg/Rectangle 7.svg");
+}
+
+.button_login {
+    margin-left: 32px;
+    width: 65px;
+    height: 26px;
+    left: 1315px;
+    top: 33px;
+    border: none;
+    outline: none;
+    background: #7CE3E1;
+    border-radius: 5px;
+}
+
+.button_login:hover {
+    background: #69c4c2;
+}
+
+.button_login:active {
+    background: #7CE3E1;
+    box-shadow: 0 3px #7CE3E1 inset;
+}
+
+.menu_item_l {
+    margin-left: 49px;
+    border: none;
+    outline: none;
+    background-color: #FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    margin-top: 38px;
+    letter-spacing: 0.01em;
+
+    color: #000000;
+}
+
+
+.loader {
+    width: 24px;
+    height: 24px;
+    margin-top: 35px;
+    position: relative;
+    background-image: url("../../svg/header/loader.svg");
+    animation: spin 3s linear 0s infinite;
+}
+
+.flex {
+    display: flex;
+}
+
+.flexlimitComponent {
+    margin-top: -8px;
+    display: flex;
+}
+
+.NLoader {
+    width: 24px;
+    height: 24px;
+
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.textUser {
+    width: 121px;
+    height: 12px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    color: #000000;
+
+    opacity: 0.4;
+}
+
+.textNumber {
+    width: 19px;
+    height: 17px;
+    margin-left: 10px;
+    margin-top: 9px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+.textNumberGreen {
+    width: 27px;
+    margin-left: 10px;
+    height: 17px;
+    margin-top: 9px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+
+    color: #8AC540;
+}
+
+.infoBlockMargin {
+    margin-top: 15px;
+}
+
+.userTextProfil {
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+
+    color: #000000;
+
+    opacity: 0.7;
+}
+
+.userIcon {
+    margin-left: -35px;
+    margin-right: 65px;
+    margin-top: 17px;
+    width: 30px;
+    height: 30px;
+    border: 2px solid rgb(83, 79, 79);
+    border-radius: 50%;
+    background: rgb(8, 8, 8);
+
+}
+
+.blockProfil {
+    width: 70px;
+    margin-right: 5px;
+}
+
+
+@media (max-device-width: 930px) {
+
+    .menu_item {
+        display: none;
+    }
+
+    .registate {
+        display: none;
+
+    }
+
+
+}
+
+
+@media screen and (max-width: 930px) {
+    .menu_item {
+        display: none;
+    }
+
+    .registate {
+        display: none;
+
+    }
+
+}

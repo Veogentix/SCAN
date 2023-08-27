@@ -1,0 +1,211 @@
+.h1_title {
+    width: 817px;
+    height: 96px;
+
+
+    font-family: 'Ferry';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 0.03em;
+
+    color: #000000;
+}
+
+.p_text {
+    width: 534px;
+    height: 48px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+
+    color: #000000;
+}
+
+.block {
+    margin-top: 60px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 60px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dockPickter {
+    width: 91px;
+    height: 112px;
+    margin-right: 160px;
+    margin-top: 80px;
+    background-image: url("../../svg/search/Document.svg");
+}
+
+.DoubleDockPickter {
+    width: 141px;
+    height: 69px;
+
+    margin-top: 80px;
+    background-image: url("../../svg/search/Folders.svg");
+}
+
+.rocketPic {
+    width: 443px;
+    height: 472px;
+
+    margin-top: 80px;
+    background-image: url("../../svg/search/rocket.svg");
+}
+
+.sectionBlock {
+    width: 972px;
+    height: 543px;
+    left: 53px;
+    top: 378px;
+    margin-top: 47px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.input {
+    width: 242px;
+    height: 43px;
+    position: relative;
+    display: block;
+    margin-top: -30px;
+    background: #FFFFFF;
+    border: 1px solid #C7C7C7;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+}
+
+.sectionBlock_margin {
+    margin-left: 44px;
+    margin-top: 30px;
+    margin-right: 44px;
+    margin-bottom: 30px;
+    display: flex;
+}
+
+.flexDate {
+    display: flex;
+    width: 400px;
+}
+
+.marginInput {
+    margin-left: 10px;
+}
+
+.dateMarginTop {
+    margin-top: 20px;
+}
+
+.chekbox {
+    width: 20px;
+    height: 20px;
+
+
+    border: 1px solid #000000;
+}
+
+.inputError {
+
+
+
+    width: 242px;
+    height: 43px;
+    position: relative;
+    display: block;
+    margin-top: -30px;
+
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+    color: red;
+    background: #FFFFFF;
+    border: 1px solid #fa0505;
+
+}
+
+.whideCheckbox {
+    width: 420px;
+}
+
+.sectionBlock_leftBlock {
+    width: 400px;
+}
+
+.marginChekbox {
+    margin-top: 10px;
+}
+
+.sectionBlock_marginRightBlock {
+    margin-left: 50px;
+}
+
+
+.buttonLogIn {
+    width: 305px;
+    height: 59px;
+
+    border: none;
+    outline: none;
+    background: #b8bcd3;
+    border-radius: 5px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+    /* identical to box height */
+
+    letter-spacing: 0.02em;
+
+    color: #FFFFFF;
+}
+
+.buttonLogIn {
+    width: 305px;
+    height: 59px;
+
+    border: none;
+    outline: none;
+    background: #b8bcd3;
+    border-radius: 5px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+    /* identical to box height */
+
+    letter-spacing: 0.02em;
+
+    color: #FFFFFF;
+}
+
+.buttonLogInTrue {
+    width: 305px;
+    height: 59px;
+
+    border: none;
+    outline: none;
+    background: #0d28c2;
+    border-radius: 5px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+    /* identical to box height */
+
+    letter-spacing: 0.02em;
+
+    color: #FFFFFF;
+}
